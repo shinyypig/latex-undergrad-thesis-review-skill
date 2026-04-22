@@ -1,0 +1,6 @@
+interface:
+  display_name: "LaTeX Thesis Review"
+  short_description: "Undergrad LaTeX thesis review with first-page summary"
+  icon_small: "./assets/thesis-review-small.svg"
+  icon_large: "./assets/thesis-review.png"
+  default_prompt: "Use $latex-undergrad-thesis-review to review and annotate this undergraduate LaTeX thesis, including a first-page summary report, structure, formulas, figures, citations, and writing quality."
