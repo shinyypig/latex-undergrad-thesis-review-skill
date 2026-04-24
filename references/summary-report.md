@@ -90,3 +90,4 @@ After compiling:
 - Confirm the original thesis cover or original first page starts after the summary page.
 - Confirm the summary is review-only and does not appear in non-review/final-submission mode.
 - Confirm local side comments still render near their intended text.
+- If delivery is requested, copy the compiled review PDF to `Thesis-review.pdf`; do not overwrite the original submission `Thesis.pdf` unless explicitly requested.

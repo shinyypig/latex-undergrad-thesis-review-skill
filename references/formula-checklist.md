@@ -53,4 +53,5 @@ Typical comments:
 - For a missing lead-in, place `\comment{...}` after the sentence immediately before the formula or at the start of the formula's surrounding paragraph.
 - For undefined symbols, place the comment after the formula or after the incomplete symbol definition sentence.
 - For reference/numbering issues, place the comment near the `\label`, `\eqref`, or the sentence that should reference the equation.
-- Avoid inserting comments inside `equation`, `align`, or `cases` unless the project's review markup is known to compile safely there.
+- Avoid inserting comments inside `equation`, `align`, `gather`, `split`, `cases`, `array`, or other math environments unless the project's review markup is known to compile safely there.
+- If a formula environment itself is fragile, anchor the comment in the lead-in sentence or immediately after the display environment in normal prose.

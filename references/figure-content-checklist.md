@@ -30,3 +30,9 @@ Inspect the actual image file whenever possible, not only the LaTeX code.
 - Check whether `\caption{}` is specific enough and consistent with nearby references.
 - Check whether the figure is referenced in the body text before or near the figure's appearance.
 - Check whether subfigure widths, alignment, and spacing are balanced.
+
+## Comment Placement
+
+- Do not insert `\comment{...}` inside `figure`, `table`, `tabular`, `adjustbox`, `caption`, or subfigure internals.
+- Anchor figure/table comments in nearby normal prose, preferably the sentence that introduces, references, or interprets the figure/table.
+- If no such prose exists, place one comment immediately before or after the floating environment and make the missing introduction/interpretation explicit.
